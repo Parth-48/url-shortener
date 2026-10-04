@@ -119,37 +119,6 @@ Open in browser:
 - Frontend → http://localhost:3000
 - API Docs → http://localhost:8000/docs
 
-### Run without Docker
-
-**Backend:**
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate        # Windows
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Make sure MySQL and Redis are running locally, then update `backend/.env`:
-```env
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=urlshortener
-REDIS_HOST=localhost
-REDIS_PORT=6379
-BASE_URL=http://localhost:8000
-```
-
----
 
 ## API Reference
 
