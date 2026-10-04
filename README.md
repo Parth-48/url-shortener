@@ -104,7 +104,7 @@ url-shortener/
 - Docker Desktop installed and running
 - Git
 
-### Run with Docker (Recommended)
+### Run with Docker
 
 ```bash
 # Clone the repo
@@ -119,7 +119,7 @@ Open in browser:
 - Frontend → http://localhost:3000
 - API Docs → http://localhost:8000/docs
 
-### Run without Docker (Development)
+### Run without Docker
 
 **Backend:**
 ```bash
@@ -243,7 +243,5 @@ docker ps
 
 ## Author
 
-**Your Name** — IIT [College Name], CSE [Year]
+**Parth Ukarde** — IIT Bhubaneswar, CSE 2027
 
-- GitHub: [@yourname](https://github.com/yourname)
-- LinkedIn: [yourname](https://linkedin.com/in/yourname)
